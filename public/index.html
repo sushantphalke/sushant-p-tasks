@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="" />
+  <link rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <title>GOVERNMENT COLLAGE OF ENGINEERING ANG RESEARCH, AWASARI</title>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+  <script src="https://kit.fontawesome.com/ec75735a44.js" crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function () {
+      $(".accordion_body .li_qus").click(function () {
+        $(this).parent().toggleClass("active");
+      });
+    })
+
+  </script>
+  <!-- Counter code -->
+  <script>
+    $(document).ready(function () {
+      $('.counter').counterUp({
+        delay: 50,
+        time: 1500
+      });
+    });
+  </script>
+  <script>
+    // scroll top bar
+    $(window).scroll(function () {
+      var height = $(window).scrollTop();
+      if (height > 100) {
+        $('#back-to-top').fadeIn();
+      } else {
+        $('#back-to-top').fadeOut();
+      }
+    });
+    $(document).ready(function () {
+      $("#back-to-top").click(function (event) {
+        event.preventDefault();
+        $("html").animate({ scrollTop: 0 }, "slow");
+        return false;
+      });
+
+    });
+
+
+  </script>
+</head>
+
+<body>
+
+
+  <div>
+    <div id='root'></div>
+  </div>
+
+</body>
+
+</html>
