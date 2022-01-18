@@ -2,8 +2,8 @@ import React from 'react';
 
 export const Counters = () => {
     return (
-        <>
-            <div className='counter-section'>
+        <><div class='container'>
+            <div className='counter-section' style={{backgroundColor:'cyan', border:'1px solid red',borderRadius:'10px'}}>
                 <div className='counter-up'>
                     <div className='content'>
                         <div className ='box'>
@@ -36,7 +36,7 @@ export const Counters = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div></div>
         </>
     );
 };
