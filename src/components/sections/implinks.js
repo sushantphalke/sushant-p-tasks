@@ -9,7 +9,7 @@ export default function Implinks() {
                         <div class='fw-bold'>
                             <a href='https://mahadbtmahait.gov.in'>MahaDBT</a>
                         </div>
-                        https://mahadbtmahait.gov.in
+                       mahadbtmahait.gov.in
                     </div>
                     <span class='badge bg-primary rounded-pill'>4</span>
                 </li>
@@ -20,7 +20,7 @@ export default function Implinks() {
                                 Exam Forms
                             </a>
                         </div>
-                        https://examform.unipune.ac.in
+                       examform.unipune.ac.in
                     </div>
                     <span class='badge bg-primary rounded-pill'>3</span>
                 </li>
@@ -31,7 +31,7 @@ export default function Implinks() {
                                SBI Collect
                             </a>
                         </div>
-                        https://www.onlinesbi.com/sbicollect/icollecthome.htm
+                       <p> www.onlinesbi.com</p>
                     </div>
                     <span class='badge bg-primary rounded-pill'>3</span>
                 </li>
